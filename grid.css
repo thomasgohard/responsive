@@ -1,0 +1,56 @@
+/*
+ *	responsive
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/responsive/license
+ */
+@charset "utf-8";
+
+[class*='col-'] {
+	float: left;
+}
+
+.col-gr0 {
+	width: 100%;
+}
+
+.col-gr1 {
+	width: 61.80%;
+}
+
+.col-gr2 {
+	width: 38.20%;
+}
+
+.col-gr3 {
+	width: 23.61%;
+}
+
+.col-gr4 {
+	width: 14.59%;
+}
+
+.col-gr5 {
+	width: 9.02%;
+}
+
+.col-gr6 {
+	width: 5.57%;
+}
+
+.col-gr7 {
+	width: 3.44%;
+}
+
+.col-gr8 {
+	width: 2.13%;
+}
+
+.col-gr9 {
+	width: 1.32%;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
