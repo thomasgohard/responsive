@@ -1,0 +1,15 @@
+/*
+ *	responsive
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/responsive/license
+ */
+@charset "utf-8";
+
+.invisible {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px !important;
+	margin: 0 !important;
+	overflow: hidden !important;
+	position: absolute;
+	width: 1px !important;
+}
