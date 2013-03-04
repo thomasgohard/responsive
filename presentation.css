@@ -1,0 +1,30 @@
+/*
+ *	responsive
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/responsive/license
+ */
+@charset "utf-8";
+
+#header, #footer {
+	background-color: #333;
+	color: #fff;
+}
+
+#banner{
+	background-color: #f00;
+	color: #000;
+}
+
+#site-tools {
+	background-color: #000;
+}
+
+#site-nav {
+	background-color: #999;
+	color: #000;
+}
+
+#search {
+	background-color: #ccc;
+	color: #000;
+}
