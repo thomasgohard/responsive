@@ -19,16 +19,31 @@
 </head>
 <body>
 
-<header id="header">
-	<div id="banner">banner</div>
-	<div id="site-tools">site-tools</div>
-	<nav id="site-nav">site-nav</nav>
-	<div id="search">search</nav>
-</header>
+<div id="header">
+	<header id="global-header">
+		global-header
+		<div id="global-banner">global-banner</div>
+		<nav id="site-nav">global-nav</nav>
+	</header>
+	<header id="site-header">
+		site-header
+		<div id="site-banner">site-banner</div>
+		<nav id="site-nav">site-nav</nav>
+	</header>
+	<header id="section-header">
+		section-header
+		<div id="section-banner">section-banner</div>
+		<nav id="section-nav">section-nav</nav>
+	</header>
+</div>
 
 <div id="main" class="grid">main</div>
 
-<footer id="footer" class="grid">footer</footer>
+<div id="footer">
+	<footer id="section-footer" class="grid">section-footer</footer>
+	<footer id="site-footer" class="grid">site-footer</footer>
+	<footer id="global-footer" class="grid">global-footer</footer>
+</div>
 
 </body>
 </html>

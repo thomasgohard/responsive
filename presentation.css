@@ -10,21 +10,21 @@
 	color: #fff;
 }
 
-#banner{
+[id$='-banner'] {
 	background-color: #f00;
 	color: #000;
 }
 
-#site-tools {
+/*#site-tools {
 	background-color: #000;
-}
+}*/
 
-#site-nav {
+#global-nav, #site-nav, #section-nav {
 	background-color: #999;
 	color: #000;
 }
 
-#search {
+/*#search {
 	background-color: #ccc;
 	color: #000;
-}
+}*/
